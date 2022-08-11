@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="POM_DDF_TestNG.KiteLoginTest">
+        <methods>
+          <include name="VerifyUserID"/>
+          <include name="LogoutFromApp"/>
+          <include name="LogininApp"/>
+          <include name="OpenBrowser"/>
+          <include name="Closebrowser"/>
+        </methods>
+      </class> <!-- POM_DDF_TestNG.KiteLoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
